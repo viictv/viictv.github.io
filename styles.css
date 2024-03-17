@@ -1,0 +1,92 @@
+* {
+    font-family: "Do Hyeon", sans-serif;
+    
+}
+
+body {
+    cursor: none;
+}
+
+.cursor-hidden {
+    cursor: none;
+  }
+
+.custom-cursor {
+    width: 40px;
+    height: 40px;
+    background-color: rgb(255, 0, 0); /* You can change the color of the cursor */
+    cursor: pointer; /* Set the cursor type */
+    position: absolute;
+    border-radius: 50%; /* Make it round */
+    z-index: 9999; /* Ensure it's on top of other elements */
+    pointer-events: none; /* Allows clicks to pass through the cursor */
+}
+
+#title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-color: blue;
+}
+
+#restart-button {
+    position:relative; left: 0px; top: -140px;
+    background-color: blue;
+    color: white;
+    padding: 15px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
+
+#scoreid {
+    position:relative; left: 710px; top: 100px;
+    color: white;
+    
+}
+#score {
+    position:relative; left: 735px; top: 80px;
+    color: white;
+    
+}
+
+#timeid {
+    position:relative; left: 1120px; top: 0px;
+    color: white;
+}
+
+#time-left {
+    position:relative; left: 1140px; top: -20px;
+    color: white;
+}
+
+
+
+.grid {
+    position:relative; left: 0px; top: -70px;
+    width: 618px;
+    height: 618px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 640px
+}
+
+.square {
+    height: 202px;
+    width: 200px;
+    border: solid rgb(255, 255, 255) 2px;
+
+    
+}
+
+
+.mole {
+    background-image: url('blank.png');
+    background-image: url('mole.jpg');
+    background-size: cover;
+
+}
